@@ -11,9 +11,7 @@ body {
 #navbar {
     overflow: hidden;
     text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    margin-bottom: 75px;
 }
 
 #navbar a {
@@ -24,7 +22,80 @@ body {
 }
 
 /* INDEX STUFF */
+.index-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 75px;
+}
 
-#info article {
+.index-img img {
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+    position: relative;
+    border-radius: 50%;
+}
+
+#index-header {
+    margin-left: 20px;
+    margin-bottom: 10px;
     color: #87d82f;
+}
+
+#index-main {
+    width: 100%;
+    background-color: #96998a;
+    padding: 50px;
+}
+
+#info ul {
+    list-style-type: upper-roman;
+}
+
+#info a{
+    text-decoration: none;
+}
+
+.eye-container {
+    display: flex;
+    position: absolute;
+}
+
+.eye-container .eye {
+    z-index: 1;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 20px;
+    border-radius: 50%;
+    transform: scale(0.4);
+}
+
+.eye-container .eye::before {
+    content: "";
+    top: 50%;
+    left: 43px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+/* CONTACT STUFF */
+
+
+
+/* OTHER */
+
+.disable-select {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
