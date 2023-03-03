@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+#navbar {
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar a {
+    display: inline-block;
+    padding: 20px;
+    color: #87d82f;
+    text-decoration: none;
+}
+
+/* INDEX STUFF */
+
+#info article {
+    color: #87d82f;
+}
