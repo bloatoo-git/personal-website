@@ -112,3 +112,22 @@ body {
 #cc-logo:hover {
     transform: scale(1.05);
 }
+
+
+.img-collection-1 h1 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto Mono';
+}
+
+.corsica-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.corsica-images img {
+    height: 400px;
+    padding: 5px;
+}
