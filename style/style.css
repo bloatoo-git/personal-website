@@ -94,25 +94,26 @@ body {
     box-sizing: border-box;
 }
 
+/* ABOUT STUFF*/
 
-/* OTHER */
-
-.disable-select {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+.about-container {
+    width: 100%;
+    padding: 50px;
+    display: flex;
 }
 
-#cc-logo {
-    width: 130px;
+#workstation h1 {
+    color: #fff;
+    font-family: 'Roboto Mono';
+    margin-bottom: 10px;
 }
 
-#cc-logo:hover {
-    transform: scale(1.05);
+#workstation img {
+    height: 420px;
 }
 
+
+/* WIHB STUFF*/
 
 .img-collection-1 h1 {
     color: #fff;
@@ -130,4 +131,23 @@ body {
 .corsica-images img {
     height: 400px;
     padding: 5px;
+}
+
+
+/* OTHER */
+
+.disable-select {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#cc-logo {
+    width: 130px;
+}
+
+#cc-logo:hover {
+    transform: scale(1.05);
 }
