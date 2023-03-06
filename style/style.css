@@ -50,14 +50,6 @@ body {
     color: #87d82f;
 }
 
-#index-main {
-    font-family: 'Roboto Mono';
-    width: 100%;
-    background-color: #d6cee5;
-    padding: 40px;
-}
-
-
 #info ul {
     list-style-type: upper-roman;
 }
@@ -122,6 +114,16 @@ body {
 #specs ul li {
     color: #fff;
     font-family: 'Roboto Mono';
+}
+
+
+/* CONTACT STUFF*/
+
+#contact-main {
+    font-family: 'Roboto Mono';
+    width: 100%;
+    background-color: #d6cee5;
+    padding: 40px;
 }
 
 
